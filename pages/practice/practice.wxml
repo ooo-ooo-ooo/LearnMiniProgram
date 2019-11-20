@@ -1,0 +1,8 @@
+<!--pages/practice/practice.wxml-->
+<view>hello {{name}}</view>
+
+<view wx:for="{{students}}" wx:key="{{index}}">{{item.name}} - {{item.age}}</view>
+
+<view>当前计数: {{counter}}</view>
+<button bindtap="handleBtnClick">+</button>
+<button bindtap="handleSubtraction">-</button>

@@ -1,6 +1,12 @@
 {
   "pages": [
     "pages/home/home",
+    "pages/scroll/scroll",
+    "pages/input/input",
+    "pages/image/image",
+    "pages/openType/openType",
+    "pages/text/text",
+    "pages/button/button",
     "pages/about/about"
   ],
   "window": {

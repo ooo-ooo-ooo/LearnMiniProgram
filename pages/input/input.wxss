@@ -1,0 +1,5 @@
+/* pages/input/input.wxss */
+input{
+  border: solid 1px red;
+  margin: 10px 30px;
+}

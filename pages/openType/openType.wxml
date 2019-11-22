@@ -1,0 +1,7 @@
+<!--pages/openType/openType.wxml-->
+<view>
+  <button open-type="contact" bindcontact="onContact">客服会话</button>
+  <button open-type="share">程序分享</button>
+  <button open-type="getPhoneNumber" bindgetphonenumber="onGetPhoneNumber">获取电话</button>
+  <button open-type="getUserInfo" bindgetuserinfo="onGetUserInfo">用户信息</button>
+</view>

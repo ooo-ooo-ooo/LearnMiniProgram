@@ -1,2 +1,19 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<!-- 1.事件处理的回顾 -->
+<button bindtap="handleBtnClick" size="mini">按钮</button>
+<button bind:tap="handleBtnClick" size="mini">按钮</button>
+<button catch:tap="handleBtnClick" size="mini">按钮</button>
+
+<!-- 
+  某些组件会有自己特性的事件类型
+  input有bindinput/bindblur/bindfocus
+  scroll-view有bindscrolltowpper/bindscrolltolower
+-->
+
+<!-- 2.常见的一些事件 -->
+<view class="box"
+      bindtouchstart="handleTouchStart"
+      bindtouchmove="handleTouchMove"
+      bindtouchend="handleTouchEnd"
+      bindtap="handleTap"
+      bindlongpress="handleLongpress"></view>
